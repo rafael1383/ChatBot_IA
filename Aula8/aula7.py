@@ -1,5 +1,5 @@
 import requests
-
+    
 
 API_KEY = ''
 # Ajustado para gemini-1.5-flash (versão estável atual)
