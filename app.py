@@ -85,6 +85,10 @@ def enviar_para_gemini(mensagem_usuario, historico):
 def index():
     return render_template("index.html")
 
+@app.route("/projeto2")
+def projeto2():
+    return render_template("projeto2.html")
+
 # Simulação de "banco de dados" em memória para o histórico desta sessão
 # Em um sistema real, usaríamos session do Flask ou Redis
 chat_historico = []
